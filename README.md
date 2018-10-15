@@ -1,5 +1,8 @@
-vaadin-app
-==============
+[![Built in Vaadin on Kotlin](http://vaadinonkotlin.eu/images/built_in_vok_badge_small.png)](http://vaadinonkotlin.eu)
+[![Build Status](https://travis-ci.org/mvysny/karibu-helloworld-application-maven.svg?branch=master)](https://travis-ci.org/mvysny/karibu-helloworld-application-maven)
+
+Karibu-DSL Hello World Application
+==================================
 
 Template for a simple Vaadin application that only requires a Servlet 3.0 container to run.
 
@@ -9,9 +12,9 @@ to Kotlin by using the [Karibu-DSL](https://github.com/mvysny/karibu-dsl) framew
 Workflow
 ========
 
-To compile the entire project, run "mvn install".
+To compile the entire project, run `./mvnw -C clean package` (or on Windows: `./mvnw.cmd -C clean package`).
 
-To run the application, run "mvn jetty:run" and open http://localhost:8080/ .
+To run the application, run `./mvnw jetty:run` and open http://localhost:8080/ .
 
 To produce a deployable production mode WAR:
 - change productionMode to true in the servlet class configuration (nested in the UI class)
