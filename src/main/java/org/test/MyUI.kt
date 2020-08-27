@@ -34,4 +34,12 @@ class MyUI : UI() {
 
 @WebServlet(urlPatterns = ["/*"], name = "MyUIServlet", asyncSupported = true)
 @VaadinServletConfiguration(ui = MyUI::class, productionMode = false)
-class MyUIServlet : VaadinServlet()
+class MyUIServlet : VaadinServlet() {
+    companion object {
+        init {
+            // Vaadin logs into java.util.logging. Redirect that, so that all logging goes through slf4j.
+            SLF4JBridgeHandler.removeHandlersForRootLogger()
+            SLF4JBridgeHandler.install()
+        }
+    }
+}
