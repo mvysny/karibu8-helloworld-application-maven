@@ -1,5 +1,4 @@
 [![Powered By Vaadin on Kotlin](http://vaadinonkotlin.eu/iconography/vok_badge.svg)](http://vaadinonkotlin.eu)
-[![Build Status](https://travis-ci.org/mvysny/karibu-helloworld-application-maven.svg?branch=master)](https://travis-ci.org/mvysny/karibu-helloworld-application-maven)
 
 Karibu-DSL Hello World Application
 ==================================
