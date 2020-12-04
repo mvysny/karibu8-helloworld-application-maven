@@ -14,14 +14,14 @@
 	</prerequisites>
 
 	<properties>
-		<vaadin.version>8.11.3</vaadin.version>
+		<vaadin.version>8.12.1</vaadin.version>
 		<jetty.plugin.version>9.4.31.v20200723</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<!-- If there are no local customisations, this can also be "fetch" or "cdn" -->
 		<vaadin.widgetset.mode>local</vaadin.widgetset.mode>
-		<kotlin.version>1.4.10</kotlin.version>
+		<kotlin.version>1.4.20</kotlin.version>
 		<junit.jupiter.version>5.7.0</junit.jupiter.version>
 	</properties>
 
@@ -117,7 +117,7 @@
 		<dependency>
 			<groupId>com.github.mvysny.kaributesting</groupId>
 			<artifactId>karibu-testing-v8</artifactId>
-			<version>1.2.5</version>
+			<version>1.2.6</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
