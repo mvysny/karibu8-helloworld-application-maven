@@ -8,6 +8,8 @@ Template for a simple Vaadin application that only requires a Servlet 3.0 contai
 This is the Vaadin application as generated from [https://vaadin.com/maven](https://vaadin.com/maven), but converted
 to Kotlin by using the [Karibu-DSL](https://github.com/mvysny/karibu-dsl) framework.
 
+For newest Vaadin version please see the [Vaadin Framework Github Tags](https://github.com/vaadin/framework/tags) page.
+
 Workflow
 ========
 
